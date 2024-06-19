@@ -109,8 +109,8 @@ def load_data(file_path):
 
 if __name__ == '__main__':
     json_path = 'celebvhq_info.json'  # json file path
-    raw_vid_root = './downloaded_celebvhq/raw/'  # download raw video path
-    processed_vid_root = './downloaded_celebvhq/processed/'  # processed video path
+    raw_vid_root = '/HDD/binhds/2.Datasets/CelebV-HQ/raw/'  # download raw video path
+    processed_vid_root = '/HDD/binhds/2.Datasets/CelebV-HQ/processed/'  # processed video path
     proxy = None  # proxy url example, set to None if not use
 
     os.makedirs(raw_vid_root, exist_ok=True)
